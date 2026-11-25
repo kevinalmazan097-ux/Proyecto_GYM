@@ -1,0 +1,38 @@
+GYM KEVIN - Proyecto Android Studio
+
+Tecnologias:
+- Kotlin y Jetpack Compose / Material 3
+- Room para persistencia local SQLite
+- Hilt para inyeccion de dependencias
+- Navigation Compose
+- Tipografia Montserrat
+- Tema oscuro negro y rojo
+
+Modulos incluidos:
+1. Inicio de sesion
+2. Dashboard con indicadores reales
+3. Socios: alta, consulta, busqueda, edicion y eliminacion
+4. Membresias: alta, listado y eliminacion
+5. Pagos: registro, listado y eliminacion
+6. Asistencias: registro, listado y eliminacion
+7. Rutinas: catalogo de rutinas de ejemplo
+8. Reportes: conteos basados en la base de datos
+
+Base de datos:
+- Se conserva la base Room gym_kevin_database y sus tablas usuarios y socios.
+- Se agregan las tablas membresias, pagos y asistencias.
+- La version de Room sube a 3 e incluye migracion de la version 2 a la 3 para conservar los datos existentes.
+
+Acceso inicial de demostracion:
+- Correo: kevin@gmail.com
+- Contrasena: Kevin
+
+Orientacion:
+- La aplicacion permite orientacion vertical y horizontal.
+- Los formularios y pantallas de modulos se adaptan al ancho disponible.
+- Los campos de formulario usan rememberSaveable y los datos persistentes se conservan en Room.
+
+Importante:
+- Abre la carpeta Proyecto_GYM_Kevin en Android Studio.
+- Deja que Gradle sincronice las dependencias.
+- La compilacion no pudo verificarse en este entorno porque no fue posible descargar Gradle desde services.gradle.org (sin conexion de red). Verifica la sincronizacion y ejecuta Build > Make Project en tu Android Studio.

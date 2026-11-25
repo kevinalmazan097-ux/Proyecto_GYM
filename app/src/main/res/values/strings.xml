@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">GYM KEVIN</string>
+
+    <!-- Inicio de sesión -->
+    <string name="login_bienvenido">Bienvenido</string>
+    <string name="login_subtitulo">Sistema de administración</string>
+    <string name="login_pie">GYM KEVIN © 2026</string>
+    <string name="campo_correo">Correo electrónico</string>
+    <string name="campo_contrasena">Contraseña</string>
+    <string name="btn_iniciar_sesion">INICIAR SESIÓN</string>
+    <string name="error_campos_obligatorios">Completa todos los campos</string>
+    <string name="error_credenciales">Correo o contraseña incorrectos</string>
+    <string name="error_consulta_bd">No se pudo consultar la base de datos</string>
+
+    <!-- Panel principal -->
+    <string name="dashboard_subtitulo">Panel de administración</string>
+    <string name="dashboard_resumen">Resumen general</string>
+    <string name="dashboard_socios_activos">Socios registrados</string>
+    <string name="dashboard_por_vencer">Por vencer</string>
+    <string name="dashboard_asistencias_hoy">Asistencias registradas</string>
+    <string name="dashboard_valor_socios_activos">128</string>
+    <string name="dashboard_valor_por_vencer">8</string>
+    <string name="dashboard_valor_asistencias">36</string>
+    <string name="dashboard_modulos">Módulos del sistema</string>
+    <string name="dashboard_abrir_modulo">Abrir módulo</string>
+    <string name="modulo_socios">Socios</string>
+    <string name="modulo_membresias">Membresías</string>
+    <string name="modulo_pagos">Pagos</string>
+    <string name="modulo_asistencia">Asistencia</string>
+    <string name="modulo_rutinas">Rutinas</string>
+    <string name="modulo_reportes">Reportes</string>
+
+    <!-- Socios -->
+    <string name="socios_titulo">SOCIOS</string>
+    <string name="socios_subtitulo">Directorio de socios</string>
+    <string name="socios_buscar_placeholder">Buscar socio...</string>
+    <string name="btn_registrar_socio">+ REGISTRAR SOCIO</string>
+    <string name="socios_vacio">Todavía no hay socios registrados</string>
+    <string name="socios_sin_resultados">No se encontraron socios</string>
+    <string name="socio_telefono_formato">Teléfono: %1$s</string>
+    <string name="socio_correo_formato">Correo: %1$s</string>
+    <string name="socio_estado_formato">Estado: %1$s</string>
+    <string name="socio_registro_formato">Registro: %1$s</string>
+    <string name="estado_activa">Activa</string>
+    <string name="estado_por_vencer">Por vencer</string>
+    <string name="estado_inactiva">Inactiva</string>
+
+    <!-- Registro de socios -->
+    <string name="registro_titulo">Registrar socio</string>
+    <string name="registro_subtitulo">Ingresa los datos del nuevo socio</string>
+    <string name="campo_nombre_completo">Nombre completo</string>
+    <string name="campo_telefono">Teléfono</string>
+    <string name="campo_fecha_alta">Fecha de alta (DD/MM/AAAA)</string>
+    <string name="error_correo_invalido">Ingresa un correo válido</string>
+    <string name="error_guardar_socio">No se pudo guardar el socio</string>
+    <string name="btn_guardar_socio">GUARDAR SOCIO</string>
+    <string name="btn_cancelar">CANCELAR</string>
+
+    <!-- Modulos de gestion -->
+    <string name="btn_regresar">REGRESAR</string>
+    <string name="membresias_descripcion">Administra los planes, vigencias y costos de los socios.</string>
+    <string name="pagos_descripcion">Registra y consulta los pagos realizados por los socios.</string>
+    <string name="asistencia_descripcion">Controla las entradas de los socios al gimnasio.</string>
+    <string name="rutinas_descripcion">Rutinas de ejemplo para organizar el entrenamiento.</string>
+    <string name="reportes_descripcion">Indicadores calculados con los registros almacenados.</string>
+    <string name="campo_socio">Nombre del socio</string>
+    <string name="campo_tipo_membresia">Tipo de membresía</string>
+    <string name="campo_fecha_inicio">Fecha de inicio</string>
+    <string name="campo_fecha_fin">Fecha de vencimiento</string>
+    <string name="campo_costo">Costo</string>
+    <string name="campo_concepto">Concepto</string>
+    <string name="campo_monto">Monto</string>
+    <string name="campo_fecha">Fecha (DD/MM/AAAA)</string>
+    <string name="campo_metodo_pago">Método de pago</string>
+    <string name="campo_hora">Hora</string>
+    <string name="campo_observaciones">Observaciones</string>
+    <string name="btn_guardar">GUARDAR REGISTRO</string>
+    <string name="btn_registrar_pago">REGISTRAR PAGO</string>
+    <string name="btn_registrar_asistencia">REGISTRAR ASISTENCIA</string>
+    <string name="btn_eliminar">ELIMINAR</string>
+    <string name="registros_guardados">Registros guardados: %1$d</string>
+    <string name="reporte_socios">Socios registrados</string>
+    <string name="reporte_membresias">Membresías</string>
+    <string name="reporte_pagos">Pagos</string>
+    <string name="reporte_asistencias">Asistencias</string>
+    <string name="reportes_nota">Los indicadores se actualizan automáticamente cuando agregas o eliminas registros.</string>
+    <string name="rutina_a">Rutina A · Tren superior</string>
+    <string name="rutina_a_detalle">Calentamiento, ejercicios de empuje y tracción, y estiramiento final.</string>
+    <string name="rutina_b">Rutina B · Tren inferior</string>
+    <string name="rutina_b_detalle">Calentamiento, ejercicios de piernas y trabajo de movilidad.</string>
+    <string name="rutina_c">Rutina C · Cardio y resistencia</string>
+    <string name="rutina_c_detalle">Actividad cardiovascular moderada y recuperación.</string>
+    <string name="rutina_d">Rutina D · Movilidad</string>
+    <string name="rutina_d_detalle">Movilidad articular, estabilidad y estiramientos suaves.</string>
+
+    <string name="btn_editar">EDITAR</string>
+    <string name="editar_socio">Editar socio</string>
+
+    <string name="error_modulo_membresia">Completa los campos y verifica el costo</string>
+    <string name="error_modulo_pago">Completa los campos y verifica el monto</string>
+    <string name="error_modulo_asistencia">Completa socio, fecha y hora</string>
+</resources>
